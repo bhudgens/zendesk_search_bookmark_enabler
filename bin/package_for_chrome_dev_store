@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+export DIR_EXTENSION="./extension"
+
+# Find our extension
+[ -d ${DIR_EXTENSION} ] || (echo Run from root directory &&  exit 1)
+
+# Package up our extension
+[ -f extension.zip ] && rm extension.zip
+zip -r extension.zip ${DIR_EXTENSION}
