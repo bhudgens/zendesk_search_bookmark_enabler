@@ -6,6 +6,9 @@ For at least four years, [people have been asking Zendesk](https://support.zende
 
 Grabs your search from the URL and injects the search into Zendesk's Searchbox
 
+https://$example.zendesk.com/agent/search/1?query=`your search here`
+
+
 ## How do you use it?
 
 - [Install The Extension](https://chrome.google.com/webstore/detail/ienmdmgikmjpbjmlaimkbhhlfncidjdl)
