@@ -24,7 +24,7 @@ function getParameterByName(name) {
    * our run_at in the manifest.  So we setup something to listen for the form
    * element on the search page
    */
-  var domLoadTimer = setInterval(() => {
+  const domLoadTimer = setInterval(() => {
     const _searchBox = document.getElementsByClassName('classic_input query-field')[0];
     if (_searchBox) {
       clearInterval(domLoadTimer);
