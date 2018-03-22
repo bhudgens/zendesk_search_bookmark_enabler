@@ -18,7 +18,7 @@ Here's an example of a url that would search for all tickets not solved that are
 https://$example.zendesk.com/agent/search/1?query=status<=solved%20assignee:none
 ```
 
-Detailed information about Zendesk Search can be found [here](https://support.zendesk.com/hc/en-us/articles/203663226#topic_qtr_avw_ld)
+Detailed information about Zendesk Search can be found [here](https://support.zendesk.com/hc/en-us/articles/203663226#topic_qtr_avw_ld).
 
 ## Don't Understand The Funny URI Encoding Characters?  (Like %20)
 
