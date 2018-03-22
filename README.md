@@ -1,14 +1,14 @@
 # Zendesk Search Bookmark Enabler
 
-Zendesk [does]() [not]() [support]() bookmarking searches in [Zendesk Support](https://support.zendesk.com/hc/en-us).  This tiny chrome extension enables the ability to pass a search to Zendesk via the URL.
+For at least four years, [people have been asking Zendesk](https://support.zendesk.com/hc/en-us/community/posts/202543443-Search-criteria-should-be-added-to-URL-) to allow searches to be accessible via the URL.  This facilitates utilizing Zendesk's in-depth search tools to provide custom views and would allow passing along searches to other folks.  Zendesk has essentially [ignored their users](https://support.zendesk.com/hc/en-us/community/posts/203438206-Search-based-Views-Saved-Searches).  This Chrome Extension hopes to fill the void in a limited capacity until Zendesk provides this [much needed feature](https://support.zendesk.com/hc/en-us/community/posts/115008515707-Perform-a-search-using-string-in-URL).
 
 ## How does it work?
 
-Grabs your search from the URL and injects the search into Zendesk's searchbox
+Grabs your search from the URL and injects the search into Zendesk's Searchbox
 
 ## How do you use it?
 
-- [Install The Extension]()
+- [Install The Extension](https://chrome.google.com/webstore/detail/ienmdmgikmjpbjmlaimkbhhlfncidjdl)
 - Go to your Zendesk Search Url (Example: `https://$domain.zendesk.com/agent/search/1`)
 - Add a query param to your Url (Example: `?query=$whatever_you_want_to_search`)
 
@@ -28,4 +28,4 @@ If you do not understand how to properly encode your params, the easiest way to 
 - Type the search exactly as you want it in the URL (including spaces)
 - Hit Enter
 
-![Example]()
+![Example](https://github.com/bhudgens/zendesk_search_bookmark_enabler/raw/master/images/example_1.png)
