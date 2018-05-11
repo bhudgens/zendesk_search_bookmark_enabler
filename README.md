@@ -15,7 +15,7 @@ Grabs your search from the URL and injects the search into Zendesk's Searchbox
 - Go to your Zendesk Search Url (Example: `https://$domain.zendesk.com/agent/search/1`)
 - Add a query param to your Url (Example: `?query=$whatever_you_want_to_search`)
 
-Here's an example of a url that would search for all tickets not solved that are not solved:
+Here's an example of a url that would search for all tickets that are not solved:
 
 ```bash
 https://$example.zendesk.com/agent/search/1?query=status<=solved%20assignee:none
